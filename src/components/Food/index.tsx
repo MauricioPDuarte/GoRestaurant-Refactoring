@@ -5,7 +5,6 @@ import { Container } from './styles';
 import api from '../../services/api';
 
 interface FoodProps {
-  isAvailable: boolean,
   food: Food,
   handleEditFood: (food: Food) => void,
   handleDelete: (id: number) => void,
